@@ -1,0 +1,33 @@
+﻿@import "tailwindcss";
+
+@import "../styles/tokens.css";
+
+/* Smooth font rendering */
+html {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --color-primary: #8b5cf6;
+}
+
+body {
+  @apply bg-[#020617] text-white;
+  background: radial-gradient(circle at top right, #1e1b4b, #020617 70%);
+}
+
+.glass {
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glow {
+  box-shadow: 0 0 30px rgba(120, 89, 255, 0.5);
+}
+
+.section {
+  @apply py-20 px-6 max-w-7xl mx-auto;
+}

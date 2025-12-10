@@ -1,0 +1,40 @@
+import { prisma } from "@/lib/db";
+
+const DAILY_LIMITS: Record<string, number> = {
+    "LIKE": 50,
+    "COMMENT": 30,
+    "CONNECT": 20,
+    "SCRAPE": 100,
+    "INMAIL": 20
+};
+
+export class RateLimitService {
+    static async checkLimit(actionType: string): Promise<boolean> {
+        const limit = DAILY_LIMITS[actionType];
+        if (!limit) return true; // No limit defined
+
+        const startOfDay = new Date();
+        startOfDay.setHours(0, 0, 0, 0);
+
+        const count = await prisma.activityLog.count({
+            where: {
+                action: actionType,
+                createdAt: {
+                    gte: startOfDay
+                }
+            }
+        });
+
+        console.log(`Rate Limit Check: ${actionType} - ${count}/${limit}`);
+        return count < limit;
+    }
+
+    static async incrementUsage(actionType: string, meta?: any) {
+        await prisma.activityLog.create({
+            data: {
+                action: actionType,
+                meta: meta || {}
+            }
+        });
+    }
+}

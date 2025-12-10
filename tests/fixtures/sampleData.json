@@ -1,0 +1,388 @@
+{
+  "companies": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "name": "TechCorp Solutions",
+      "domain": "techcorp.com",
+      "industry": "Technology",
+      "size": "500-1000",
+      "description": "Leading provider of enterprise software solutions",
+      "website": "https://techcorp.com",
+      "linkedin_url": "https://linkedin.com/company/techcorp",
+      "phone": "+1-555-0123",
+      "address": "123 Tech Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "postal_code": "94105",
+      "created_at": "2024-01-15T10:30:00Z",
+      "updated_at": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "name": "Global Marketing Inc",
+      "domain": "globalmarketing.com",
+      "industry": "Marketing & Advertising",
+      "size": "100-500",
+      "description": "Full-service digital marketing agency",
+      "website": "https://globalmarketing.com",
+      "linkedin_url": "https://linkedin.com/company/globalmarketing",
+      "phone": "+1-555-0124",
+      "address": "456 Marketing Ave",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "postal_code": "10001",
+      "created_at": "2024-01-16T14:20:00Z",
+      "updated_at": "2024-01-16T14:20:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "name": "Healthcare Systems LLC",
+      "domain": "healthcaresys.com",
+      "industry": "Healthcare",
+      "size": "1000+",
+      "description": "Healthcare technology and services provider",
+      "website": "https://healthcaresys.com",
+      "linkedin_url": "https://linkedin.com/company/healthcaresys",
+      "phone": "+1-555-0125",
+      "address": "789 Medical Blvd",
+      "city": "Boston",
+      "state": "MA",
+      "country": "USA",
+      "postal_code": "02110",
+      "created_at": "2024-01-17T09:15:00Z",
+      "updated_at": "2024-01-17T09:15:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440001",
+      "company_id": "550e8400-e29b-41d4-a716-446655440001",
+      "first_name": "John",
+      "last_name": "Anderson",
+      "email": "john.anderson@techcorp.com",
+      "phone": "+1-555-0123-1001",
+      "title": "Chief Technology Officer",
+      "department": "Engineering",
+      "linkedin_url": "https://linkedin.com/in/johnanderson",
+      "seniority": "C-Level",
+      "is_decision_maker": true,
+      "notes": "Key decision maker for technology purchases. Interested in AI and cloud solutions.",
+      "created_at": "2024-01-15T10:35:00Z",
+      "updated_at": "2024-01-15T10:35:00Z"
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440002",
+      "company_id": "550e8400-e29b-41d4-a716-446655440001",
+      "first_name": "Sarah",
+      "last_name": "Mitchell",
+      "email": "sarah.mitchell@techcorp.com",
+      "phone": "+1-555-0123-1002",
+      "title": "Product Manager",
+      "department": "Product",
+      "linkedin_url": "https://linkedin.com/in/sarahmitchell",
+      "seniority": "Mid-Level",
+      "is_decision_maker": false,
+      "notes": "Manages product roadmap. Very responsive to emails.",
+      "created_at": "2024-01-15T10:40:00Z",
+      "updated_at": "2024-01-15T10:40:00Z"
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440003",
+      "company_id": "550e8400-e29b-41d4-a716-446655440002",
+      "first_name": "Michael",
+      "last_name": "Chen",
+      "email": "michael.chen@globalmarketing.com",
+      "phone": "+1-555-0124-2001",
+      "title": "Marketing Director",
+      "department": "Marketing",
+      "linkedin_url": "https://linkedin.com/in/michaelchen",
+      "seniority": "Director",
+      "is_decision_maker": true,
+      "notes": "Oversees all marketing campaigns. Budget holder for marketing tools.",
+      "created_at": "2024-01-16T14:25:00Z",
+      "updated_at": "2024-01-16T14:25:00Z"
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440004",
+      "company_id": "550e8400-e29b-41d4-a716-446655440003",
+      "first_name": "Dr. Emily",
+      "last_name": "Rodriguez",
+      "email": "emily.rodriguez@healthcaresys.com",
+      "phone": "+1-555-0125-3001",
+      "title": "Chief Medical Officer",
+      "department": "Medical",
+      "linkedin_url": "https://linkedin.com/in/emilyrodriguez",
+      "seniority": "C-Level",
+      "is_decision_maker": true,
+      "notes": "Medical expert focused on healthcare technology adoption.",
+      "created_at": "2024-01-17T09:20:00Z",
+      "updated_at": "2024-01-17T09:20:00Z"
+    }
+  ],
+  "icp_profiles": [
+    {
+      "id": "770e8400-e29b-41d4-a716-446655440001",
+      "name": "Enterprise Tech Buyer",
+      "description": "Large technology companies with 500+ employees",
+      "icp_data": {
+        "company_size": ["500-1000", "1000+"],
+        "industries": ["Technology", "Software", "IT Services"],
+        "revenue_range": "$100M+",
+        "key_roles": ["CTO", "CIO", "VP Engineering", "Product Manager"],
+        "technologies": ["Cloud", "AI/ML", "DevOps", "SaaS"],
+        "geography": ["North America", "Europe"],
+        "buying_signals": ["hiring engineers", "tech expansion", "funding rounds"]
+      },
+      "is_active": true,
+      "created_at": "2024-01-10T08:00:00Z",
+      "updated_at": "2024-01-10T08:00:00Z"
+    },
+    {
+      "id": "770e8400-e29b-41d4-a716-446655440002",
+      "name": "Mid-Market Marketing",
+      "description": "Marketing agencies and departments with 100-500 employees",
+      "icp_data": {
+        "company_size": ["100-500"],
+        "industries": ["Marketing & Advertising", "Media", "Communications"],
+        "revenue_range": "$10M-$100M",
+        "key_roles": ["Marketing Director", "CMO", "Brand Manager"],
+        "technologies": ["Marketing Automation", "Analytics", "CRM", "Social Media"],
+        "geography": ["North America"],
+        "buying_signals": ["campaign launches", "team expansion", "tool evaluation"]
+      },
+      "is_active": true,
+      "created_at": "2024-01-11T09:30:00Z",
+      "updated_at": "2024-01-11T09:30:00Z"
+    }
+  ],
+  "assets": [
+    {
+      "id": "880e8400-e29b-41d4-a716-446655440001",
+      "name": "Product Demo Video",
+      "type": "video",
+      "url": "https://example.com/assets/demo-video.mp4",
+      "file_path": "/assets/videos/demo-video.mp4",
+      "description": "Comprehensive product demonstration video",
+      "tags": ["demo", "product", "video", "sales"],
+      "size_bytes": 52428800,
+      "mime_type": "video/mp4",
+      "is_public": true,
+      "created_at": "2024-01-12T11:00:00Z",
+      "updated_at": "2024-01-12T11:00:00Z"
+    },
+    {
+      "id": "880e8400-e29b-41d4-a716-446655440002",
+      "name": "Sales Presentation Template",
+      "type": "template",
+      "url": "https://example.com/assets/sales-template.pptx",
+      "file_path": "/assets/templates/sales-template.pptx",
+      "description": "Standard sales presentation template for enterprise clients",
+      "tags": ["template", "sales", "presentation", "enterprise"],
+      "size_bytes": 2097152,
+      "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "is_public": false,
+      "created_at": "2024-01-13T13:15:00Z",
+      "updated_at": "2024-01-13T13:15:00Z"
+    },
+    {
+      "id": "880e8400-e29b-41d4-a716-446655440003",
+      "name": "Case Study - TechCorp",
+      "type": "document",
+      "url": "https://example.com/assets/techcorp-case-study.pdf",
+      "file_path": "/assets/documents/techcorp-case-study.pdf",
+      "description": "Success story and ROI analysis for TechCorp implementation",
+      "tags": ["case study", "success story", "ROI", "techcorp"],
+      "size_bytes": 1048576,
+      "mime_type": "application/pdf",
+      "is_public": true,
+      "created_at": "2024-01-14T15:30:00Z",
+      "updated_at": "2024-01-14T15:30:00Z"
+    },
+    {
+      "id": "880e8400-e29b-41d4-a716-446655440004",
+      "name": "Company Logo",
+      "type": "image",
+      "url": "https://example.com/assets/logo.png",
+      "file_path": "/assets/images/logo.png",
+      "description": "Official company logo in high resolution",
+      "tags": ["logo", "branding", "image"],
+      "size_bytes": 262144,
+      "mime_type": "image/png",
+      "is_public": true,
+      "created_at": "2024-01-15T16:45:00Z",
+      "updated_at": "2024-01-15T16:45:00Z"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "990e8400-e29b-41d4-a716-446655440001",
+      "name": "Q1 Enterprise Outreach",
+      "description": "Targeted campaign for enterprise technology companies",
+      "status": "active",
+      "start_date": "2024-01-01",
+      "end_date": "2024-03-31",
+      "budget": 50000.00,
+      "target_audience": "Enterprise technology companies with 500+ employees",
+      "objectives": [
+        "Generate 50 qualified leads",
+        "Schedule 20 product demos",
+        "Close 5 enterprise deals"
+      ],
+      "assets": [
+        "880e8400-e29b-41d4-a716-446655440001",
+        "880e8400-e29b-41d4-a716-446655440002",
+        "880e8400-e29b-41d4-a716-446655440003"
+      ],
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "990e8400-e29b-41d4-a716-446655440002",
+      "name": "Marketing Agency Webinar Series",
+      "description": "Educational webinar series for marketing professionals",
+      "status": "draft",
+      "start_date": "2024-02-15",
+      "end_date": "2024-04-15",
+      "budget": 25000.00,
+      "target_audience": "Marketing agencies and departments",
+      "objectives": [
+        "Register 500 webinar attendees",
+        "Generate 100 marketing qualified leads",
+        "Establish thought leadership"
+      ],
+      "assets": [
+        "880e8400-e29b-41d4-a716-446655440001",
+        "880e8400-e29b-41d4-a716-446655440004"
+      ],
+      "created_at": "2024-01-20T14:30:00Z",
+      "updated_at": "2024-01-20T14:30:00Z"
+    },
+    {
+      "id": "990e8400-e29b-41d4-a716-446655440003",
+      "name": "Healthcare Summit Follow-up",
+      "description": "Follow-up campaign from healthcare technology summit",
+      "status": "completed",
+      "start_date": "2023-12-01",
+      "end_date": "2023-12-31",
+      "budget": 15000.00,
+      "target_audience": "Healthcare technology decision makers",
+      "objectives": [
+        "Follow up with 200 summit attendees",
+        "Schedule 15 healthcare-focused demos",
+        "Close 3 healthcare deals"
+      ],
+      "assets": [
+        "880e8400-e29b-41d4-a716-446655440003"
+      ],
+      "created_at": "2023-12-01T00:00:00Z",
+      "updated_at": "2024-01-05T09:00:00Z"
+    }
+  ],
+  "engagement_logs": [
+    {
+      "id": "aa0e8400-e29b-41d4-a716-446655440001",
+      "company_id": "550e8400-e29b-41d4-a716-446655440001",
+      "contact_id": "660e8400-e29b-41d4-a716-446655440001",
+      "campaign_id": "990e8400-e29b-41d4-a716-446655440001",
+      "type": "email",
+      "subject": "Enterprise Solutions for TechCorp",
+      "content": "Hi John, I wanted to reach out regarding our enterprise solutions that could benefit TechCorp's current technology stack...",
+      "direction": "outbound",
+      "status": "completed",
+      "scheduled_at": "2024-01-16T10:00:00Z",
+      "completed_at": "2024-01-16T10:05:00Z",
+      "metadata": {
+        "email_id": "email_12345",
+        "open_rate": 0.85,
+        "click_rate": 0.25,
+        "reply_received": true
+      },
+      "created_at": "2024-01-16T10:00:00Z",
+      "updated_at": "2024-01-16T10:05:00Z"
+    },
+    {
+      "id": "aa0e8400-e29b-41d4-a716-446655440002",
+      "company_id": "550e8400-e29b-41d4-a716-446655440001",
+      "contact_id": "660e8400-e29b-41d4-a716-446655440001",
+      "campaign_id": "990e8400-e29b-41d4-a716-446655440001",
+      "type": "call",
+      "subject": "Product Demo Discussion",
+      "content": "Discussed AI integration capabilities and pricing for enterprise deployment. John expressed strong interest in scheduling a technical deep-dive.",
+      "direction": "outbound",
+      "status": "completed",
+      "scheduled_at": "2024-01-18T14:00:00Z",
+      "completed_at": "2024-01-18T14:45:00Z",
+      "metadata": {
+        "call_duration": 45,
+        "call_recording": "recording_67890",
+        "next_steps": "Schedule technical deep-dive with engineering team",
+        "outcome": "positive"
+      },
+      "created_at": "2024-01-18T14:00:00Z",
+      "updated_at": "2024-01-18T14:45:00Z"
+    },
+    {
+      "id": "aa0e8400-e29b-41d4-a716-446655440003",
+      "company_id": "550e8400-e29b-41d4-a716-446655440002",
+      "contact_id": "660e8400-e29b-41d4-a716-446655440003",
+      "campaign_id": "990e8400-e29b-41d4-a716-446655440002",
+      "type": "meeting",
+      "subject": "Webinar Strategy Discussion",
+      "content": "Initial discovery call to understand Global Marketing's webinar needs and current challenges.",
+      "direction": "outbound",
+      "status": "pending",
+      "scheduled_at": "2024-01-25T15:00:00Z",
+      "completed_at": null,
+      "metadata": {
+        "meeting_type": "discovery",
+        "attendees": ["Michael Chen", "Sales Rep"],
+        "agenda": ["Current webinar strategy", "Pain points", "Solution overview"]
+      },
+      "created_at": "2024-01-22T11:30:00Z",
+      "updated_at": "2024-01-22T11:30:00Z"
+    },
+    {
+      "id": "aa0e8400-e29b-41d4-a716-446655440004",
+      "company_id": "550e8400-e29b-41d4-a716-446655440003",
+      "contact_id": "660e8400-e29b-41d4-a716-446655440004",
+      "campaign_id": "990e8400-e29b-41d4-a716-446655440003",
+      "type": "email",
+      "subject": "Healthcare Summit Follow-up",
+      "content": "Hi Dr. Rodriguez, it was great meeting you at the Healthcare Technology Summit last week...",
+      "direction": "outbound",
+      "status": "completed",
+      "scheduled_at": "2023-12-05T09:00:00Z",
+      "completed_at": "2023-12-05T09:02:00Z",
+      "metadata": {
+        "email_id": "email_54321",
+        "open_rate": 0.92,
+        "click_rate": 0.38,
+        "reply_received": true
+      },
+      "created_at": "2023-12-05T09:00:00Z",
+      "updated_at": "2023-12-05T09:02:00Z"
+    },
+    {
+      "id": "aa0e8400-e29b-41d4-a716-446655440005",
+      "company_id": "550e8400-e29b-41d4-a716-446655440001",
+      "contact_id": "660e8400-e29b-41d4-a716-446655440002",
+      "campaign_id": "990e8400-e29b-41d4-a716-446655440001",
+      "type": "note",
+      "subject": "Product Feedback",
+      "content": "Sarah provided valuable feedback on our product roadmap. She particularly liked the AI features but suggested improvements to the user interface.",
+      "direction": null,
+      "status": "completed",
+      "scheduled_at": null,
+      "completed_at": "2024-01-19T16:30:00Z",
+      "metadata": {
+        "feedback_type": "product",
+        "priority": "medium",
+        "action_items": ["Schedule UI/UX review", "Share feedback with product team"]
+      },
+      "created_at": "2024-01-19T16:30:00Z",
+      "updated_at": "2024-01-19T16:30:00Z"
+    }
+  ]
+}
